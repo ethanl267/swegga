@@ -1,0 +1,108 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="order.css">
+        <script src="order.js">
+            
+        </script>
+    </head>
+    <body>
+        <div class="sidebar">
+            <img src=" swegga.jpg">
+            
+        </div>
+        <div class="banner">
+            <img src="delivery.gif">
+        </div>
+        <div class="nav">
+            <img src="links.gif" usemap="#mylinks">
+            <map name="mylinks">
+                <area target="" alt="" title="" href="index.html" coords="93,6,11,36" shape="rect">
+                <area target="" alt="" title="" href="services.html" coords="192,5,110,35" shape="rect">
+                <area target="" alt="" title="" href="Products.html" coords="295,6,213,36" shape="rect">
+                <area target="" alt="" title="" href="Order status.html" coords="414,5,332,35" shape="rect">
+                <area target="" alt="" title="" href="Contact US.html" coords="540,7,458,37" shape="rect">
+
+
+            </map>
+        </div>
+          
+        
+
+        <!-- <ul>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">Sevices</a></li>
+            <li><a href="contact.asp">Products</a></li>
+            <li><a href="about.asp"> Order Status</a></li>
+            <li><a href="contact.asp">Contact US</a></li>
+            
+          </ul> -->
+        
+
+         
+           
+         
+
+        <table border="1px">
+            <tr>
+              <th>Description</th>
+              <th>Size</th>
+              <th>Colour</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+
+            </tr>
+            <tr>
+              <td>Female Ski Jackets</td>
+              <td><select name="Female Jackets" id="Female Jackets">
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+                <option value="extra large">extra large</option>
+              </select></td>
+              <td><select name="Colour" id="Colour">
+                <option value="blue">blue</option>
+                <option value="red">red</option>
+                <option value="white">white</option>
+                <option value="black">black</option>
+              </select></td>
+              <td><section id="items">
+                <div class="item"><span class="price">R150,95</span></div>
+                <td><input type="text" name="Quantity_1" id="Quantity_1"></td>
+                <td><input type="text"  id="fresult">R</td>
+
+
+            </tr>
+            <tr>
+                <td>Male Ski Jackets</td>
+                <td><select name="Male Jackets" id="Male Jackets">
+                    <option value="small">small</small></option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+                    <option value="extra large">extra large</option>
+                  </select></td>
+                  <td><select name="Colour" id="Colour">
+                    <option value="blue">blue</option>
+                    <option value="red">red</option>
+                    <option value="white">white</option>
+                    <option value="black">black</option>
+                  </select></td>
+              
+>                <td><section id="items">
+                    <div class="item"><span class="price">R180,95</span>
+                    <td><input type="text" name="Quantity_2" id="Quantity_2"></td>
+                    <td><input type="text"  id="mresult">R</td>
+                    
+                    
+            </tr>
+            <td colspan="4">Click to confirm and process your order</td>
+            <td><input type="button" onclick="totalprice('Quantity_1')" value="Total Amount"/></td>
+            <td><input type="text"  id="result">R</td>
+
+
+        </table>
+     
+
+    </body>
+</html>
